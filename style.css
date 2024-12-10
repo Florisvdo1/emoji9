@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #E5F6FD;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-header {
+  background-color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.time-container {
+  font-size: 18px;
+}
+.time-icon {
+  margin-right: 10px;
+}
+.app-title {
+  font-size: 24px;
+}
+.format-toggle-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.slot {
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+  border: 1px dashed #ccc;
+  background-color: #f9f9f9;
+}
+.emoji-container {
+  display: flex;
+  align-items: center;
+}
+.placeholder {
+  font-size: 24px;
+  cursor: pointer;
+  min-width: 50px;
+  min-height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin-right: 10px;
+}
+.add-placeholder-btn {
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.emoji-picker {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.emoji-category {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.emoji {
+  font-size: 24px;
+  margin: 5px;
+  cursor: grab;
+}
